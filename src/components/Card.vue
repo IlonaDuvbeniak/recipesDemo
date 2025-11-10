@@ -27,7 +27,7 @@
 
         <div class="name-container">
             <div class="text-name-container">
-                <h3>{{ categori }}</h3>
+                <a href="#">{{ categori }}</a>
                 <h2>{{ name }}</h2>
             </div>
             <ButtonCard><img src="/img/arrow-btn.svg"/></ButtonCard>
@@ -75,20 +75,23 @@
     }
 
     .text-name-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
         height: 100%;
         width: 66.666%;
         padding: 16px 0px 16px 16px;
     }
 
 
-    h3 {
+    a {
         color: #D80A3D;
         font-family: "Instrument Sans";
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 16px; 
-        margin-bottom: 8px;
+        text-decoration: none;
     }
 
     h2 {
