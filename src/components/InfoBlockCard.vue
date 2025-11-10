@@ -43,17 +43,19 @@
         justify-content: center;
         color: #D80A3D;
         text-align: center;
-        font-family: Montserrat;
+        font-family: "Instrument Sans";
         font-size: 16px;
+        font-style: normal;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 16px;
     }
 
     .info-block span {
         color: #D80A3D;
         text-align: center;
-        font-family: Montserrat;
+        font-family: "Instrument Sans";
         font-size: 16px;
+        font-style: normal;
         font-weight: 600;
         line-height: 20px; 
     }

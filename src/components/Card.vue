@@ -83,19 +83,21 @@
 
     h3 {
         color: #D80A3D;
-        font-family: Montserrat;
+        font-family: "Instrument Sans";
         font-size: 16px;
+        font-style: normal;
         font-weight: 500;
-        line-height: 12px;
-        margin-bottom: 12px;
+        line-height: 16px; 
+        margin-bottom: 8px;
     }
 
     h2 {
-        color: #E88F5E;
-        font-family: Montserrat;
+        color: #D80A3D;
+        font-family: "Instrument Sans";
         font-size: 24px;
+        font-style: normal;
         font-weight: 700;
-        line-height: 20px; 
+        line-height: 24px; 
     }
 
     .info-recipe-card {
